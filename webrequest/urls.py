@@ -22,8 +22,8 @@ urlpatterns = [
     path('',views.bootstrap),
     path('index',views.index),
     path('analyze', views.analyze, name='analyze'),
-    path('capitalizefirst', views.capfirst, name='capfirst'),
-    path('newlineremove', views.newlineremove, name='newlineremove'),
-    path('spaceremove', views.spaceremove, name='spaceremove'),
-    path('charcount', views.charcount, name='charcount'),
+    # path('capitalizefirst', views.capfirst, name='capfirst'),
+    # path('newlineremove', views.newlineremove, name='newlineremove'),
+    # path('spaceremove', views.spaceremove, name='spaceremove'),
+    # path('charcount', views.charcount, name='charcount'),
 ]
